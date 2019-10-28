@@ -1,0 +1,10 @@
+<h1>
+  Home Page
+</h1>
+
+
+<app-time-picker [date]="theDateYouWantToDoStuffWith" (hourEmitter)="setHours($event)" (minuteEmitter)="setMinutes($event)"></app-time-picker>
+
+<br/>
+
+<input [(ngModel)]="theDateYouWantToDoStuffWith">
